@@ -1,1 +1,1 @@
-# tp_classif_images
+# TP sur la classification d'images par apprentissage profond
