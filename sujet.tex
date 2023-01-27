@@ -81,11 +81,11 @@ $\Rightarrow$ \textbf{Un compte-rendu est à rendre à la fin des 4 heures de TP
 \noindent 3) Préparez le code de façon à enregistrer une courbe d'apprentissage pendant l'entraînement (c'est-à-dire la progression de la performance en fonction du nombre d'itérations). La courbe sera à insérer dans le compte-rendu.
 \newline
 
-\noindent 4) Effectuez l'entraînement du réseau (viser une performance supérieure à 75 \%, qui pourra être améliorée continuellement pendant les 4 heures du TP).
+\noindent 4) Effectuez l'entraînement du réseau (viser une performance supérieure à 75 \%, qui pourra être améliorée continuellement pendant les 4 heures du TP). Indiquez l'accuracy finale obtenue.
 \newline
 
 \noindent 5) Évaluez les résultats obtenus avec des mesures 
-plus précises que la simple performance. Pour une classe donnée, on pourra par exemple
+plus informatives que la simple "accuracy". Pour une classe donnée, on pourra par exemple
 mesurer la moyenne et la variance des différences entre les estimation de probabilité de chaque label. Illustrez également vos résultats.
 \newline
 
@@ -96,13 +96,13 @@ mesurer la moyenne et la variance des différences entre les estimation de proba
 Remarque : on peut observer les transformations appliquées aux images en utilisant \texttt{original=False} dans les appels à la fonction \texttt{plotdata()}.
 \newline
 
-\noindent 8) Mettez au point une procédure où plusieurs "crops" aléatoires sont utilisés pour évaluer la classe d'une image de visage. Vérifiez si cela améliore les performances de classification.
+\noindent 8) Mettez au point une procédure où plusieurs "crops" aléatoires sont utilisés pour évaluer la classe d'une image de visage. Vérifiez que cela améliore les performances de classification.
 \newline
 
-\noindent 9) Cherchez des images de l'ensemble de données sur lesquelles le réseau entraîné se trompe complètement. Expliquez la procédure mise en place. Cherchez également le contraire : des images sur lesquelles le réseau se trompe le moins.
+\noindent 9) Cherchez des images de l'ensemble de données sur lesquelles le réseau entraîné se trompe complètement. Expliquez la procédure mise en place. Cherchez également le contraire : les images sur lesquelles le réseau se trompe le moins.
 \newline
 
-\noindent 10) Généralisation hors de la base de données d'entraînement et de test : collectez (sur internet par exemple) une vingtaine d'images de visages centrées et ajustées de manière similaire à celles de la base de donnée (attention il suffit que l'image soit carrée), et testez le réseau entraîné pour vérifier qu'il fonctionne correctement.
+\noindent 10) Généralisation hors de la base de données d'entraînement et de test : collectez (sur internet par exemple) une vingtaine d'images de visages centrées et ajustées de manière similaire à celles de la base de donnée, et testez le réseau entraîné pour vérifier qu'il fonctionne correctement.
 \newline
 
 \noindent 11) Après vous être renseigné$\cdot$e$\cdot$s sur la méthode appelée "CycleGAN", décrivez comment cette dernière pourrait être appliquée afin d'entraîner un réseau à artificiellement vieillir ou rajeunir une image de visage.
